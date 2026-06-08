@@ -1,17 +1,1 @@
-Package: com.wkk.wechatx
-Version: 1.5-2
-Architecture: iphoneos-arm64e
-Maintainer: wkk
-Installed-Size: 2000
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.wkk.wechatx_1.5-2_iphoneos-arm64e.deb
-Size: 439038
-MD5sum: c7fc1f7ee1b0a8d1f785b61d132bdeb8
-SHA1: 2da2fbafd16673aae7d0bdd2bf94f261dde7ded5
-SHA256: a2560ef7c5c3a3676d5a9849519736bd1a313dcf190d59a411239be903253e47
-Section: Tweaks
-Description: cool
-Author: wkk
-Icon: https://s1.imagehub.cc/images/2025/01/01/95a2f7dd7e6f2a540e2f53f95ae214d4.png
-Name: WeChatX
 
