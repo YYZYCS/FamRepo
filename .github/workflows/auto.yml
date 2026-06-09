@@ -17,6 +17,8 @@ jobs:
         with:
           submodules: recursive
           token: ${{ secrets.PAT_TOKEN }}  # 确保与 GitHub Secrets 中的名称一致
+        env:
+          FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
       - name: Install Dependencies
         if: success()
