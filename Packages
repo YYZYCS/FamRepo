@@ -154,12 +154,12 @@ Installed-Size: 508
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/com.sini921.quickappskill_0.0.1-9_iphoneos-arm64e.deb
-Size: 58376
-MD5sum: 79be9c9b438c661e63d68c5bbcd6877a
-SHA1: de0d91c4da3b19dafd870b5db91e77df7d9b5548
-SHA256: 1307983074436ee02899e4cb34600fe87553a6daa89f5ecd3ef362d0e742cf03
+Size: 58432
+MD5sum: 4f83c6b38bb38e88003c37b76dfec83a
+SHA1: 60e493f3915f067637cb6ee68eea01dd757b4de7
+SHA256: b796d8697ce56c155dfcb12859c5327d2edd51c6a80a98c1caf01843e167c72b
 Section: 任务界面
-Description: 在后台界面添加一个清除所有App的按钮
+Description: 在后台界面添加一个清除所有App的按钮，电话助手也有此功能，推荐电话助手。
 Author: SINI
 Icon: https://sini921.github.io/repo/sileodepiction/icon/quickappskill.png
 Name: QuickAppsKill(rootless)
