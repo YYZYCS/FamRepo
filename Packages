@@ -379,10 +379,10 @@ Pre-Depends: rootless-compat(>= 0.9)
 Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
 Filename: ./debs/com.wkk.tweaktool_2.0.0-beta_iphoneos-arm64e.deb
 Size: 11244
-MD5sum: 9a4a01f4a512d55f5c33093f3fe4b55c
-SHA1: 4a4127ecbf9fa1046b5761709d244c7cf1a6aabd
-SHA256: 3fa99d022a1db00416f48d2b3004c11ed4881cdaa39115841f3f4cfcf5bcba5e
-Section: 配置插件备份工具
+MD5sum: 410c666d6286b1c92160422bc215e0eb
+SHA1: 407b16914cd2f490e01e1a2bf337c6fe525f019b
+SHA256: 272c27625b536af9622e9f559cd1f2f1047fff1e4063ee38bfc1c38645e67e44
+Section: #配置插件备份工具
 Description: 使用方法：Filza进入/var/mobile/Documents/tweak_tool/目录，运行“一键备份和恢复工具.sh”文件。它是备份至.jb目录下，清除越狱之前一定要复制一份到非越狱.jb目录下。
 Author: 预言小猫
 Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
