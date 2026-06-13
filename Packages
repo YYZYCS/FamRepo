@@ -70,23 +70,6 @@ Description: Neutralizes CALayer disableUpdateMask in the render server
 Author: 82flex
 Name: Unseen
 
-Package: com.be-huge.floating-view
-Version: 1.5.6-9
-Architecture: iphoneos-arm64e
-Maintainer: be-huge
-Installed-Size: 3264
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: ./debs/com.be-huge.floating-view_1.5.6-9_iphoneos-arm64e.deb
-Size: 1716794
-MD5sum: 8ae6132c33b2359da85bd93addbf0daa
-SHA1: 3120112fa44796f881a8cb68810f411ccc0a9dd7
-SHA256: b87d654750021d566e979bbfe35c4fcc091051a17e70498d8c3d14a1595fa917
-Section: Tweaks
-Description: 分屏，不必太复杂，一切从简即可。
-Author: be-huge
-Name: floatingView
-
 Package: com.cydia.love.recordpause-rootless
 Version: 2.0.6
 Architecture: iphoneos-arm64e
@@ -268,40 +251,6 @@ Section: Filza
 Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 11+. This version only supports 64-bit devices
 Author: TIGI Software
 Name: Filza File Manager 64-bit
-
-Package: com.wkk.SBLockhook1
-Version: 1.0-1
-Architecture: iphoneos-arm64e
-Maintainer: wkk
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.wkk.SBLockhook1_1.0-1_iphoneos-arm64e.deb
-Size: 3420
-MD5sum: f42ed97acc7ded3659c7a9aff3a7ca74
-SHA1: e1cc9f5400ea0bfe0c257fd0f9d71794082d48b0
-SHA256: 6febc6523b632149fef81eb10cf18ba519bd5399b4b09bea8c70904f72a7e544
-Section: 快捷开关手电筒
-Description: 长按锁屏键手机电筒(无论亮不亮屏都能触发)
-Author: wkk
-Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
-Name: 长按锁屏呼出手电筒
-
-Package: com.wkk.SBLockhook3
-Version: 1.0-3
-Architecture: iphoneos-arm64e
-Maintainer: wkk
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.wkk.SBLockhook3_1.0-3_iphoneos-arm64e.deb
-Size: 4012
-MD5sum: 091da63004f35f52380167fd8e7742b9
-SHA1: 39e91939047c98c365e71cb6fbda9b8f1aa4be42
-SHA256: 630f96cf8f144b959874561120b0140f6e07aed76ea713923f27956508f69369
-Section: 快捷开关手电筒
-Description: 长按锁屏键手机电筒(息屏才触发)
-Author: wkk
-Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
-Name: 长按锁屏呼出手电筒
 
 Package: com.wkk.atria
 Version: 1.4.1-6
