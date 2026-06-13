@@ -70,6 +70,23 @@ Description: Neutralizes CALayer disableUpdateMask in the render server
 Author: 82flex
 Name: Unseen
 
+Package: com.be-huge.floating-view
+Version: 1.5.6-9
+Architecture: iphoneos-arm64e
+Maintainer: be-huge
+Installed-Size: 3264
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/com.be-huge.floating-view_1.5.6-9_iphoneos-arm64e.deb
+Size: 1716794
+MD5sum: 8ae6132c33b2359da85bd93addbf0daa
+SHA1: 3120112fa44796f881a8cb68810f411ccc0a9dd7
+SHA256: b87d654750021d566e979bbfe35c4fcc091051a17e70498d8c3d14a1595fa917
+Section: Tweaks
+Description: 分屏，不必太复杂，一切从简即可。
+Author: be-huge
+Name: floatingView
+
 Package: com.cydia.love.recordpause-rootless
 Version: 2.0.6
 Architecture: iphoneos-arm64e
