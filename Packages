@@ -182,6 +182,23 @@ Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 11+. This v
 Author: TIGI Software
 Name: Filza File Manager 64-bit
 
+Package: com.wkk.atria
+Version: 1.4.1-6
+Architecture: iphoneos-arm64e
+Maintainer: ren7995 & SINI
+Installed-Size: 1072
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.wkk.atria_1.4.1-6_iphoneos-arm64e.deb
+Size: 374560
+MD5sum: bf6aa6e1f616f5dcb42c07b39edf8421
+SHA1: bc4cca0cc9ffa0891225e45646e5480b34f11505
+SHA256: feb6b887a4baeb8e055b26c0cc78202df3ba5708bf69eda83c394d877824b5b3
+Section: 任务界面
+Description: 后台ipad网格切换界面，桌面布局各种功能(没有桌面图标行列数量自定义功能，只有桌面文件夹里4*4等各种功能)。适用于iOS 13-16的主屏幕布局编辑器，基于开源修改编译的中文版，去掉了Alderis Color Picker依赖，编译支持roothide。
+Author: ren7995 & SINI
+Icon: https://sini921.github.io/repo/sileodepiction/icon/atria.png
+Name: Atria
+
 Package: com.wkk.filzaswipeselect
 Version: 0.0.2
 Architecture: iphoneos-arm64e
