@@ -109,6 +109,25 @@ Author: 妖刀
 Name: CCLess++(RootHide)
 Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/ccless/js.json
 
+Package: com.dao.snowboard
+Version: 1.5.37-Beta4
+Architecture: iphoneos-arm64e
+Maintainer: Spark
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard, com.spark.snowboard
+Replaces: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Provides: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Filename: ./debs/SnowBoard(RootHide)-1.5.37-Beta4-iphoneos-arm64e.deb
+Size: 1115600
+MD5sum: 05cf932cb36a38864a6da969eae67137
+SHA1: c7717b9744bfb92e84e0f2549d28f727293a9735
+SHA256: 54a62ce3b937caec5eecc4ae9046a463f777558ee0af39ed4f71a5c15e136320
+Section: 嗨-系统
+Description: Snowboard 主题引擎！roothide主题路径：[jbroot]/Library/Themes
+Author: Spark & Dennis D. Bednarz
+Name: SnowBoard(RootHide)
+
 Package: com.iZJ.SBLockhook
 Version: 1.0-1
 Architecture: iphoneos-arm64e
@@ -251,6 +270,27 @@ Description: 在后台界面添加一个清除所有App的按钮，电话助手�
 Author: SINI
 Icon: https://sini921.github.io/repo/sileodepiction/icon/quickappskill.png
 Name: QuickAppsKill(rootless)
+
+Package: com.spark.snowboard
+Version: 1.5.50
+Architecture: iphoneos-arm64e
+Maintainer: Spark
+Installed-Size: 3268
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Replaces: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Provides: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Filename: ./debs/com.spark.snowboard_1.5.50_iphoneos-arm64e.deb
+Size: 2979198
+MD5sum: 1e04f04ffde5aa81d69d42696663ee87
+SHA1: 7cb00ee2654909f8c636affe63b81f122b25533e
+SHA256: 09976211a4ae024613cf93274183830d3fe40519092db65b65badabbe7c488bb
+Section: SnowBoard
+Description: Snowboard本体，所有扩展都将依赖此插件，单独使用可以更换桌面图标（抖动后双击）等其他功能，此源仅作备份与注释。
+Author: Spark & Dennis D. Bednarz
+Icon: https://s1.imagehub.cc/images/2025/02/16/6184f5a172c0da2db10df7ddce6977bc.png
+Name: SnowBoard
 
 Package: com.tigisoftware.filza64bit
 Version: 4.0.1-4~roothide
