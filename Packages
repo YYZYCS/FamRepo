@@ -214,6 +214,22 @@ Author: sergy
 Icon: https://s1.imagehub.cc/images/2025/01/07/da88b1cfbc41a40634e3396891d98dc6.png
 Name: Immortalizer
 
+Package: com.wkk.photox
+Version: 1.0-2
+Architecture: iphoneos-arm64e
+Maintainer: wkk
+Installed-Size: 356
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: ./debs/com.wkk.photox_1.0-2_iphoneos-arm64e.deb
+Size: 24124
+MD5sum: 9372d175ea827c52bdced81edf31482c
+SHA1: eaed6f9f19f891a8a2e1c74b7616e7e89eed6731
+SHA256: c7719f45672fd46b57a77644605765af81fdcb07bbb30db34b9082f3d797c3f5
+Section: 相册相关
+Description: 相册增强(无永久删除功能，此功能用电话助手)
+Author: wkk
+Name: PhotoX
+
 Package: com.wkk.quickprefs
 Version: 1.3.3-1
 Architecture: iphoneos-arm64e
