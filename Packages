@@ -1,42 +1,3 @@
-Package: apt.cydiakk.backgrounderaction15-rootless
-Version: 0.1.0
-Architecture: iphoneos-arm64e
-Maintainer: iZJ
-Installed-Size: 340
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, com.opa334.ccsupport
-Filename: ./debs/apt.cydiakk.backgrounderaction15-rootless_0.1.0_iphoneos-arm64e.deb
-Size: 11540
-MD5sum: 62e4973e632f153b19b25cd86ac6cfb6
-SHA1: f26f2e4947ab835c3d87460bee13fc2d394298b7
-SHA256: 9527cce39251339c1c0e2fedc7bbb5e2b19c855cadb7b92291d89697ba628596
-Section: 真后台
-Description: 点开一个APP，控制中心点击按钮即可
-Author: @akusio_RR
-Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
-Name: CCSupport真后台
-Sponsor: Cydiakk中文源™ <https://apt.cydiakk.com/>
-
-Package: apt.cydiakk.backgrounderaction15autostate-rootless
-Version: 1.0.3
-Architecture: iphoneos-arm64e
-Maintainer: iZJ
-Installed-Size: 384
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: apt.cydiakk.backgrounderaction15-rootless, com.opa334.altlist
-Conflicts: byg.iosios.net.backgrounderaction15autostate, byg.iosios.net.backgrounderaction15
-Filename: ./debs/apt.cydiakk.backgrounderaction15autostate-rootless_1.0.3_iphoneos-arm64e.deb
-Size: 28172
-MD5sum: 234dc6f8a1b2c286f0beb592361fce4d
-SHA1: a7d4dec200154bc59c69b657906be7755c46bed6
-SHA256: f2353725b936428f0fb2d7c672bc751518bade18d37e54a8104538af84bfe90b
-Section: 真后台
-Description: 一款自动真后台插件，配合里的真后台插件，实现打开某个APP自动设置真后台效果，无需复杂的操作！非常好用！
-Author: 0xkuj
-Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
-Name: AutoState自动真后台
-Sponsor: Cydiakk中文源™ <https://apt.cydiakk.com/>
-
 Package: com.0xkuj.filzadirprobe
 Version: 1.7.2
 Architecture: iphoneos-arm64e
@@ -142,25 +103,6 @@ Description: 后台ipad网格切换界面，图标下载进度百分比，桌面
 Author: SINI
 Icon: https://sini921.github.io/repo/sileodepiction/icon/folderpro.png
 Name: FolderPro(roothide)
-
-Package: com.lowpowerbannertips
-Version: 1.1-3
-Architecture: iphoneos-arm64e
-Maintainer: wkk
-Installed-Size: 200
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: ./debs/com.lowpowerbannertips_1.1-3_iphoneos-arm64e.deb
-Size: 19124
-MD5sum: 3d832cad632cb55bc38031e509fcf239
-SHA1: 338f7f4256f37e6d8a1a03a3512ed80e365747fd
-SHA256: 8cc6c5bf18e58add7df6e2b2edd5d11707688f09d2a3f3a55bb61ede3465aad0
-Section: 插件
-Description: 将低电量弹窗改为横幅提示样式。
-Author: Netskao
-Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
-Name: 低电量通知横幅
-Sponsor: wkk
 
 Package: com.nathan.gridswitcher
 Version: 1.0.3
