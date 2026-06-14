@@ -35,6 +35,24 @@ Author: 0xkuj
 Icon: https://s1.imagehub.cc/images/2025/04/02/754b2bb601bad95dca5cb982e7d926af.jpeg
 Name: FilzaDirProbe
 
+Package: com.netskao.filzacrack
+Version: 1.1-9
+Architecture: iphoneos-arm64e
+Maintainer: Nets
+Installed-Size: 120
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/com.netskao.filzacrack_1.1-9_iphoneos-arm64e.deb
+Size: 28892
+MD5sum: 091fff4a033fc2f16af86bd3656e9183
+SHA1: 70eb6719c6b4c0370050343b4601784f5e719bb3
+SHA256: 47f7f963ba182efa0abae412107be4b5902ea6dc6ff4fad77a9a232de7f67b2a
+Section: Filza
+Description: Filza Crack
+Author: Netskao
+Name: Filza Crack-roothide
+Sileodepiction: https://jailrepo.initnil.com/api?Package=com.netskao.filzacrack
+
 Package: com.wkk.immortalizer
 Version: 2.0.1
 Architecture: iphoneos-arm64
@@ -52,4 +70,23 @@ Description: 可将应用置于前台，达到真后台效果，应用图标长�
 Author: sergy
 Icon: https://s1.imagehub.cc/images/2025/01/07/da88b1cfbc41a40634e3396891d98dc6.png
 Name: Immortalizer
+
+Package: roothide.patches.filza
+Version: 0.5-4
+Architecture: iphoneos-arm64e
+Maintainer: roothide
+Installed-Size: 268
+Depends: com.roothide.patchloader
+Recommends: com.tigisoftware.filza64bit (= 4.0.1-4~roothide)
+Conflicts: com.tigisoftware.filza64bit (>> 4.0.1-4~roothide), com.tigisoftware.filza64bit (<< 4.0.1-4~roothide)
+Provides: patches-com.tigisoftware.filza64bit (= 4.0.1-4~roothide)
+Filename: ./debs/roothide.patches.filza_0.5-4_iphoneos-arm64e.deb
+Size: 31040
+MD5sum: 168670c8e998af4a1d6b59747c5ccabc
+SHA1: 4dd7dd5946781f7844fa2756adbaa618162b2460
+SHA256: 7ea8571a336438a8595abd7bcdd764ceea756673c4325a0f816abb9d571cd957
+Section: Filza
+Description: RootHide Dynamic Patches For Filza
+Author: roothide
+Name: Patches for Filza 64bit
 
