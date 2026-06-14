@@ -73,6 +73,23 @@ Description: Snowboard 主题引擎！roothide主题路径：[jbroot]/Library/Th
 Author: Spark & Dennis D. Bednarz
 Name: SnowBoard(RootHide)
 
+Package: com.dao.snowboard.settingsicons
+Version: 1.0.26~Beta3
+Architecture: iphoneos-arm64e
+Maintainer: Spark
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.dao.snowboard (>= 1.2.100)
+Conflicts: com.spark.snowboard.settingsicons
+Filename: ./debs/SnowBoard SetIcons(RootHide)-1.0.26~Beta3-iphoneos-arm64e.deb
+Size: 17216
+MD5sum: 79896c838833836961bf498944da7f0c
+SHA1: 0a4c8d75e98f6c8c40f5118e16da71cc87ee237c
+SHA256: 8bdeaa6309e62246694624de5e2f73079f24c81d5e0bed5c4e41bc6c54526d29
+Section: 嗨-系统
+Description: SnowBoard 设置图标组件！
+Author: Spark
+Name: SnowBoard SetIcons(RootHide)
+
 Package: com.nathan.gridswitcher
 Version: 1.0.3
 Architecture: iphoneos-arm64e
