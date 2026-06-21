@@ -701,3 +701,23 @@ Description: 本体：RootHide Dynamic Patches For Filza
 Author: roothide
 Name: Patches for Filza 64bit
 
+Package: ws.hbang.common
+Version: 2.0-29
+Architecture: iphoneos-arm64e
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 3132
+Depends: firmware (>= 15.0)
+Filename: ./debs/Cephei Tweak Support-2.0-29-iphoneos-arm64e.deb
+Size: 270008
+MD5sum: 87a3dcf29b82307d0b3189671aad263c
+SHA1: d38accd9a88e6c58669addbcc26e2e8e3fce02b9
+SHA256: ce38484af39d3e0d5dd0e44f84b9be0d49b0cddff378111bb1f089c7f1c7e9b4
+Section: Url_Schedule抓取
+Description: Support library for tweaks
+Tag: role::developer, compatible_min::ios15.0
+Author: HASHBANG Productions <support@hbang.ws>
+Depiction: https://chariz.com/get/cephei
+Icon: https://img.chariz.cloud/icon/cephei/icon@3x.png
+Name: Cephei Tweak Support
+Support: https://hashbang.productions/support/
+
