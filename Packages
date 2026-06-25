@@ -560,6 +560,26 @@ Author: sergy
 Icon: https://s1.imagehub.cc/images/2025/01/07/da88b1cfbc41a40634e3396891d98dc6.png
 Name: Immortalizer
 
+Package: com.wkk.onesettings
+Version: 2.2
+Architecture: iphoneos-arm64e
+Maintainer: wkk
+Installed-Size: 1084
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, preferenceloader
+Conflicts: com.shepgoba.settingswidgets, com.creaturecoding.shuffle
+Filename: ./debs/com.wkk.onesettings_2.2_iphoneos-arm64e.deb
+Size: 224776
+MD5sum: 00b9f014c54ebfd410944d460250532b
+SHA1: e23f3bf5362a5ac0b924065885d48d563ffc2fc5
+SHA256: 337ce784e8ef2f7e47be5feed2aa7a1afcea6170d672bfa3a548fdb634eb0a2d
+Section: 设置相关
+Description: 插件归类，已汉化。
+Author: Nightwind
+Icon: https://sini921.github.io/repo/sileodepiction/icon/onesett.png
+Name: OneSettings
+Sponsor: wkk
+
 Package: com.wkk.photox
 Version: 1.0-4
 Architecture: iphoneos-arm64e
@@ -609,6 +629,23 @@ Description: 抓设置里的URL_Schedule，配合鱿鱼手势可一键快捷跳�
 Author: AnthoPak <anthopakdev@gmail.com>
 Icon: https://s1.imagehub.cc/images/2025/01/24/137ad8ab011c468fac23f82c8eb7c050.png
 Name: QuickPrefs
+
+Package: com.wkk.settingswidgets
+Version: 1.2.2
+Architecture: iphoneos-arm64e
+Maintainer: shepgoba <arm64.deb@icloud.com>
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.wkk.settingswidgets_1.2.2_iphoneos-arm64e.deb
+Size: 75928
+MD5sum: ef9b2d54ec62f8aee1bd286476033318
+SHA1: d6907a5401e5d354d5fc774a607768b322be5ff2
+SHA256: 468dbcedb05ee2f13a66d6be67af3bdabff0cd12e443067590a840e66d54b717
+Section: 设置相关
+Description: 将美观的小部件带到设置的顶部，已汉化。
+Author: shepgoba <arm64.deb@icloud.com>
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Name: SettingsWidgets
 
 Package: com.wkk.snapper31
 Version: 1.1-1
