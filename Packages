@@ -310,27 +310,6 @@ Description: Pin screenshots on the screen.
 Author: Jonathan Winger-lang
 Name: Snapper 3
 
-Package: com.korboy.filzaenhanced
-Version: 1.0.7.3
-Architecture: iphoneos-arm64e
-Maintainer: Korboy <korboybeats@gmail.com>
-Installed-Size: 108532
-Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.alderis (>= 1.2)
-Conflicts: xyz.cypwn.filzathumbnails, xyz.cypwn.filzaswipeselect, com.axs.filzaswipeselect, com.korboy.filzaswipeselect, com.sini.filzaswipeselect, com.korboy.filzathumbnails
-Filename: ./debs/com.korboy.filzaenhanced_1.0.7.3_iphoneos-arm64e.deb
-Size: 24257102
-MD5sum: df3d4dcff10815aa9219fe20f64954bb
-SHA1: 0ac1086feb52faec31af965eee32a81d4fe677bc
-SHA256: e5c541a5fa1d72b249e9c81eb12e88477f55846aaacf7d11dacac097dc1dcb80
-Section: Tweaks
-Description: All-in-one Filza enhancements with thumbnails, theming, editor upgrades, batch rename, custom actions, swipe-select, and UI/UX fixes.
-Author: Korboy <korboybeats@gmail.com>
-Depiction: https://korboybeats.github.io/depictions/filzaenhanced/index.html
-Icon: https://korboybeats.github.io/FilzaEnhanced/icon.png
-Name: FilzaEnhanced
-Sileodepiction: https://korboybeats.github.io/depictions/filzaenhanced/sileo.json
-Summary: All-in-One Filza Enhancements
-
 Package: com.lclrc.hammerit
 Version: 1.7.0
 Architecture: iphoneos-arm64e
@@ -366,23 +345,6 @@ Description: 在iPhone上启用iPad网格切换器。
 Author: iZJ
 Icon: https://s1.imagehub.cc/images/2025/08/18/f78bb707db6fc3170ef7e00022645165.png
 Name: gridswitcher
-
-Package: com.netskao.filzacrack
-Version: 1.1-9
-Architecture: iphoneos-arm64e
-Maintainer: Nets
-Installed-Size: 120
-Pre-Depends: rootless-compat (>= 0.9)
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: ./debs/com.netskao.filzacrack_1.1-9_iphoneos-arm64e.deb
-Size: 28816
-MD5sum: 67a0753ccfe483c9016430ea5f888ea3
-SHA1: 9d32ed50476bd2722ef8dc5655a5fe9726d9050a
-SHA256: cedb1ba390a471c52098edca81918976f1961d5eab5cfd5a021fca0f979929a8
-Section: Filza
-Description: 本体：Filza Crack
-Author: Netskao
-Name: Filza Crack-roothide
 
 Package: com.opa334.ccsupport
 Version: 1.3.13-2-15+debug
