@@ -362,6 +362,25 @@ Author: opa334
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
 Name: CCSupport
 
+Package: com.sini.sneakycam
+Version: 2.0.7
+Architecture: iphoneos-arm64e
+Maintainer: Spark
+Installed-Size: 560
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, oldabi
+Filename: ./debs/com.sini.sneakycam_2.0.7_iphoneos-arm64e.deb
+Size: 106480
+MD5sum: a7fa1568a417254b591a8a3c5802725c
+SHA1: 97b85729f62b906224789ec86aa74a0e7d74a5b8
+SHA256: b37e39fb7c0ef1df0d2e254becb2942583cfc1ccb931c840ef125b4e0d4489c5
+Section: SneakyCam
+Description: 隐私相机插件，需要搭配pulloverpro或者svp来开启相机权限，此插件为转插，有可能会出现黑屏，卡注销情况，谨慎使用，有问题请缷载！
+Author: Spark
+Icon: https://sini921.github.io/repo/sileodepiction/icon/sneakycam.png
+Name: SneakyCam(rootless)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/sneakycam/js.json
+
 Package: com.sini921.folderpro
 Version: 0.0.1-39
 Architecture: iphoneos-arm64e
